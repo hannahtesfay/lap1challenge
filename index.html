@@ -6,6 +6,7 @@
         <title>Google Clone</title>
         <link href="style.css" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+        <script defer src="script.js"></script>
     </head>
 
     <body>
@@ -18,14 +19,16 @@
 
         <section id="logoAndSearch">
         <img id="logo" src="img/GoogleLogo.png" alt="Google Logo" />
-        <form>
+        <form id="form">
             <input id="searchbar" type="text">
             <section class="buttonsSection">
                 <input class="buttons" id="submit" type="submit" value="Google Search">
-                <input class="buttons" id="feelingLucky" type="button" value="I'm Feeling Lucky">
+                <input class="buttons" id="feelingLucky" type="submit" value="I'm Feeling Lucky">
             </section>
         </form>
         </section>
+
+        <p id="results"></p>
 
         <footer>
             <ul id="footerBar">
@@ -35,5 +38,5 @@
             </ul>
         </footer>
     </body>
-    
+
 </html>
