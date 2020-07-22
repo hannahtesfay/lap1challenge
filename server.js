@@ -13,11 +13,11 @@
  ]
 
  const animalLinks = [
-    "Giraffe - https://en.wikipedia.org/wiki/Giraffe",
-    "Fox - https://en.wikipedia.org/wiki/Fox",
-    "Elephant - https://en.wikipedia.org/wiki/Elephant",
-    "Gazelle - https://en.wikipedia.org/wiki/Gazelle",
-    "Zebra - https://en.wikipedia.org/wiki/Zebra",
+    "https://en.wikipedia.org/wiki/Giraffe",
+    "https://en.wikipedia.org/wiki/Fox",
+    "https://en.wikipedia.org/wiki/Elephant",
+    "https://en.wikipedia.org/wiki/Gazelle",
+    "https://en.wikipedia.org/wiki/Zebra",
 ]
 
  // response at root page
